@@ -23,6 +23,6 @@ describe('links are visible', () => {
     it('inserts text into the links', () => {
         const { getByTestId } = render(<Contact />);
         expect(getByTestId('h1contact')).toHaveTextContent('Contact Me');
-        expect(getByTestId('buttoncontact')).toHaveTextContent('Submit');
+        expect(getByTestId('buttoncontact')).toHaveTextContent('Submituw');
     });
 });
